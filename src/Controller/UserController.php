@@ -27,7 +27,7 @@ class UserController extends AbstractController
      * @SWG\Tag(name="User")
      * @SWG\Response(
      *     response=200,
-     *     description="Returns the user list (COMPANY ONLY)",
+     *     description="Returns the user list",
      *     @SWG\Schema(
      *         type="array",
      *         example={},
@@ -51,7 +51,7 @@ class UserController extends AbstractController
      * @SWG\Tag(name="User")
      * @SWG\Response(
      *     response=200,
-     *     description="Returns the user list (COMPANY ONLY)",
+     *     description="Returns the user list",
      *     @SWG\Schema(
      *         type="array",
      *         example={},
@@ -115,7 +115,7 @@ class UserController extends AbstractController
      * @SWG\Tag(name="User")
      * @SWG\Response(
      *     response=204,
-     *     description="Delete an existing user (COMPANY ONLY)",
+     *     description="Delete an existing user",
      *     @SWG\Schema(
      *         type="array",
      *         example={},

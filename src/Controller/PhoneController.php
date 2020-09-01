@@ -26,7 +26,7 @@ class PhoneController extends AbstractController
      * @SWG\Tag(name="Phone")
      * @SWG\Response(
      *     response=200,
-     *     description="Returns the informations of an phone (COMPANY ONLY)",
+     *     description="Returns the informations of an phone",
      *     @SWG\Schema(
      *         type="array",
      *         example={},
